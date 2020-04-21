@@ -2,6 +2,6 @@
 mcd () {
     mkdir -p "$1"
     cd "$1" || exit
-    echo "$0"
-}
+    eco "$0"
+
 # foobar
